@@ -1,0 +1,18 @@
+{
+  "name": "WebClientMain",
+  "version": "1.0",
+  "charset": "utf-8",
+  "oeversion": "12.8",
+  "graphicalMode": true,
+  "extraParameters": "-assemblies .",
+  "buildPath": [
+    { "type": "source", "path": "src/main/abl" },
+    { "type": "propath", "path": "${DLC}/gui/netlib/OpenEdge.Net.pl" },
+    { "type": "propath", "path": "${DLC}/gui/OpenEdge.Core.pl" }
+  ],
+  "buildDirectory": "target/build",
+  "numThreads": 1,
+  "dbConnections": [
+    
+  ]
+}
